@@ -1,0 +1,30 @@
+{
+  "name": "koa2-learning",
+  "version": "1.0.0",
+  "description": "koa2-learing",
+  "main": "index.js",
+  "scripts": {
+    "start": "node hellokoa.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "busboy": "^0.2.14",
+    "ejs": "^2.5.6",
+    "koa": "^2.0.1",
+    "koa-jsonp": "^2.0.2",
+    "koa-router": "^7.2.0",
+    "koa-views": "^6.0.2",
+    "mysql": "^2.13.0"
+  },
+  "engines": {
+    "node": ">=7.6.0",
+    "npm": ">=3.0.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.4.1",
+    "supertest": "^3.0.0"
+  }
+}
